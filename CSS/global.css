@@ -1,0 +1,63 @@
+/*#region CSS reset */
+body {
+  margin: 0px;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  color: #141414;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+/*#endregion CSS reset */
+
+/*#region Initial Style*/
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  /* margin: 0 90px;
+  margin-top: 50px; */
+  max-width: 100vw;
+  width: 100%;
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: #141414;
+  background-color: #ecf7f1;
+}
+
+/*#endregion  Initial Style*/
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  max-width: 350px;
+  font-family: Lemonada;
+  line-height: 1.1em;
+  font-size: 8rem;
+  max-width: 4ch;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+
+footer {
+  justify-items: center;
+  margin: 0 auto;
+}
